@@ -23,3 +23,4 @@ if(r2 === r3){
 }else{
     console.log(var2 +" and " + var3 + " are DIFFERENT type.")
 }
+ 
