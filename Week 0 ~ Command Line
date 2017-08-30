@@ -50,7 +50,7 @@ $ echo "cat">pets.txt
 
 pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
 $ echo "dogs" >> pets.txt
-
+ 
 pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
 $ echo "hamster" >> pets.txt
 
