@@ -1,0 +1,24 @@
+
+pesh@DESKTOP-OCOQRP6 MINGW64 /
+$ cd ~
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~
+$ cd Desktop
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop
+$ pwd
+/c/Users/pesh/Desktop
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop
+$ touch HELLO.txt
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop
+$ ls
+desktop.ini  HELLO.txt  'HTML-CSS Projects'/  JS/  NEDERLAND/
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop
+$ echo "I love JavaScript">HELLO.txt
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop
+$ cat HELLO.txt
+I love JavaScript

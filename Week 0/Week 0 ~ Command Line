@@ -1,0 +1,77 @@
+
+              ### 1 ###
+              
+pesh@DESKTOP-OCOQRP6 MINGW64 /
+$ cd ~/Desktop/JS
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS
+$ touch printHello.js
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS
+$ echo "console.log('Hello World');" > printHello.js
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS
+$ node printHello.js
+Hello World
+
+              ### 1 ###
+                         
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS
+$ cd ~/Desktop/JS
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS
+$ pwd
+/c/Users/pesh/Desktop/JS
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS
+$ mkdir blank
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS
+$ cd blank
+
+              ### 2 ###
+              
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
+$ touch greetings.txt
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
+$ for i in {1..5};do echo "Hello" >> greetings.txt ;done
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
+$ for i in {1..5}; do cp greetings.txt $i.txt; done;
+
+              ### 3 ###
+              
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
+$ touch pets.txt
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
+$ echo "cat">pets.txt
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
+$ echo "dogs" >> pets.txt
+ 
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
+$ echo "hamster" >> pets.txt
+
+              ### 4 ###
+              
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
+$ touch commands.txt
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
+$ echo "cat" > commands.txt
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
+$ echo "ls" >> commands.txt
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
+$ echo "pwd" >> commands.txt
+
+              ### 5 ###
+              
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
+$ grep -vf pets.txt commands.txt > lovelyCommands.txt
+
+pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
+$ grep -vf commands.txt pets.txt >> lovelyCommands.txt
