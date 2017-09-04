@@ -74,4 +74,4 @@ pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
 $ grep -vf pets.txt commands.txt > lovelyCommands.txt
 
 pesh@DESKTOP-OCOQRP6 MINGW64 ~/Desktop/JS/blank
-$ grep -vf commands.txt pets.txt >> lovelyCommands.txt
+$ grep -vf commands.txt pets.txt >> lovelyCommands.txt 
