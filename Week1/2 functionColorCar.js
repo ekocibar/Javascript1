@@ -6,5 +6,5 @@ let color = "red";
 
 colorCar(color);
 colorCar("blue");
-colorCar(a = "white");
+ 
  
