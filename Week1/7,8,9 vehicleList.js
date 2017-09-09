@@ -1,35 +1,37 @@
-function vehicleType(color,code,age){
-   
-    let list = {
-    l1 : "motorbike", 
-    l2 : "caravan", 
-    l3 : "bike" 
-}
- 
+            // 7  \\
+
+let list = ["motorbike", "caravan", "bike"];
+
+
+            // 8 \\
+
+console.log(list[2]);
+
+            
+            // 9  \\
+
+function vehicle(color,code,age){
     if(code == 1 && age == 0){
-            console.log('A ' + color + ' brand new ' + list.l1 );
+            console.log('A ' + color + ' brand new ' + list[0]  );
     }else if(code == 1 && age !== 0){
-            console.log('A ' + color + ' used '  + list.l1);
+            console.log('A ' + color + ' used  ' + list[0]  );
     }else if(code == 2 && age == 0){
-        console.log('A ' + color + ' brand new '  + list.l2);
+        console.log('A ' + color + ' brand new  ' + list[1]  );
     }else if(code == 2 && age !== 0){
-        console.log('A ' + color + ' used '   + list.l2);
+        console.log('A ' + color + ' used  ' + list[1]  );
     }else if(code == 3 && age == 0){
-        console.log('A ' + color + ' brand new '  + list.l3);
+        console.log('A ' + color + ' brand new  ' + list[2]  );
     }else if(code == 3 && age !== 0){
-        console.log('A ' + color + ' used '   + list.l3);
+        console.log('A ' + color + ' used  ' + list[2]  );
     }else{
-        console.log('UNVALID CODE.');
+        console.log('Unvalid code.');
     }
     return;    
 }
 
-
-vehicleType("red", 1, 0);
-vehicleType("red", 2, 0);
-vehicleType("red", 3, 0);
-vehicleType("red", 1, 10);
-vehicleType("red", 2, 10);
-vehicleType("red", 3, 10);
-vehicleType("red", 4);
-vehicleType("red", 1);
+vehicle("red", 1, 0);
+vehicle("red", 2, 0);
+vehicle("red", 1, 10);
+vehicle("red", 2, 10);
+vehicle("red", 3, 10);
+vehicle("red", 4);
