@@ -3,7 +3,7 @@ let y = [1,2,3];
 let z = y;
 
 
-
+ 
 console.log(x == y);    //false
 console.log(x === y);   //false
 console.log(z == y);    //true
