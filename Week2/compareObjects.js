@@ -12,7 +12,7 @@ let obj2 = {
         c: { foo: 'what is a foo anyway', 
              bar: [1,2,3,4]
         }
-    }
+    } 
      
 
 
