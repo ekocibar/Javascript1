@@ -11,4 +11,4 @@ function vehicleType(color,code){
 
 vehicleType("red", 1);
 vehicleType("red", 2);
-vehicleType("red", 3);
+vehicleType("red", 3); 
