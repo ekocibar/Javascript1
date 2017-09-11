@@ -8,3 +8,4 @@ for(let i = 0 ; i < list2.length ; i++){
     }
 }
 console.log("Amazing Joe's Garage, we service " + vehicles2);
+ 
