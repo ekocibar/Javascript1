@@ -13,7 +13,7 @@ function vehicle(color,code,age){
     return;    
 }
 
-vehicle("red", 1, 0);
+vehicle("red", 1, 0); 
 vehicle("red", 2, 0);
 vehicle("red", 1, 10);
 vehicle("red", 2, 10);
