@@ -12,4 +12,4 @@ if(x === y){
 else{
     console.log("We can not compare infinities")
 }
- 
+  
