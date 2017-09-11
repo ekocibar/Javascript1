@@ -3,7 +3,7 @@ function colorCar(color){
     return;
 }
 let color = "red";
-
+ 
 colorCar(color);
 colorCar("blue");
  
