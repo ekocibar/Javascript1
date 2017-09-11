@@ -10,7 +10,7 @@ let car = {
         model: "VW",
         color: "red",
         year: 2016,
-        goodConditon: true
+        goodConditon: true 
     }
  
 printObject(car);
