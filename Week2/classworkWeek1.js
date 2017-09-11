@@ -4,7 +4,7 @@ let enes = {
     dateOfBirth : "8/8/1988",
     placeOfBirth : "Turkey",
     livingPlace : "Den Haag",
-    pets : false,
+    pets : false, 
     kids : null,
     hobbies : ["football", "watchingTV", "coding"]
     
