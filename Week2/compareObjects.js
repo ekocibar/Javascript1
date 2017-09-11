@@ -13,7 +13,7 @@ let obj2 = {
              bar: [1,2,3,4]
         }
     }
-    
+     
 
 
 function compare1(obj1, obj2){
