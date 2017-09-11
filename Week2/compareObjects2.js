@@ -35,3 +35,4 @@ var o3 = o2;
 var o1 = { foo: 'bar', moo:'car' };
 console.log(o1 == o3);  //false, o2 did not change
 //      CHANGING o1 DOESN'T CHANGE o3   \\
+ 
