@@ -7,3 +7,4 @@ function bar() {
     }
     
 foo(bar);
+ 
