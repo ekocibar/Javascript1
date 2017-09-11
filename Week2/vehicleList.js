@@ -35,3 +35,4 @@ vehicle("red", 1, 10);
 vehicle("red", 2, 10);
 vehicle("red", 3, 10);
 vehicle("red", 4);
+ 
