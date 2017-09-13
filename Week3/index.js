@@ -131,13 +131,13 @@ function newList() {
         let item1 = document.createElement("li");
         item1.innerHTML = bookInfo[i].author;
         document.body.appendChild(item1);
-        
+        item1.setAttribute("id", i);
+        //console.log(i);
         
         let item2 = document.createElement("li");
         item2.innerHTML = bookInfo[i].language;
         document.body.appendChild(item2);
-        item2.setAttribute("id", i);
-        //console.log(i);
+        
     }
 }
 newList();    
