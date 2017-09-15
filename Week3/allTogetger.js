@@ -38,7 +38,7 @@ li elements for each book ID in the array using a for loop.*/
 /*
 function makeList() {
     let list = document.createElement("ul");    // Create an <ul> element
-    list.innerHTML = "BOOK LIST";
+    
     document.body.appendChild(list);            // Append LIST to <body>
     for(let i = 0; i < bookNames.length; i++){
     let item = document.createElement("li");    // Create an <ul> element
@@ -120,26 +120,28 @@ from the object and display that. Make sure you choose the
 right html elements for each piece of info, for instance, a 
 heading for the title. */
 
-function newList() {
-        // Create an <ul> element
+function newList(bookInfo) {
+       
     for(i in bookInfo){
         let list = document.createElement("h1");
         list.innerHTML = bookInfo[i].title;
         document.body.appendChild(list);
         
-                
-        let item1 = document.createElement("li");
-        item1.innerHTML = bookInfo[i].author;
-        document.body.appendChild(item1);
-        item1.setAttribute("id", i);
+        let ulEl = document.createElement("ul");   // Create an <ul> element
+        document.body.appendChild(ulEl);
+            
+        let liElemenet1 = document.createElement("li");
+        liElemenet1.innerHTML = bookInfo[i].author;
+        ulEl.appendChild(liElemenet1);
+        liElemenet1.setAttribute("id", i);
         //console.log(i);
         
-        let item2 = document.createElement("li");
-        item2.innerHTML = bookInfo[i].language;
-        document.body.appendChild(item2);
+        let liElemenet2 = document.createElement("li");
+        liElemenet2.innerHTML = bookInfo[i].language;
+        ulEl.appendChild(liElemenet2);
     }
 }
-newList();    
+newList(bookInfo);    
     
         //####  6  ####
 console.log("\t#### 6 ####\n\n");
@@ -210,7 +212,7 @@ let bookCover ={
 };
 let imgKey = Object.keys(bookCover);
 
-function pic(){
+function addPicturesToList(imgKey){
      for(i of imgKey){
           let img = document.createElement('img');
           img.setAttribute('src',bookCover[i]);
@@ -223,4 +225,4 @@ function pic(){
      }
 }
 
-pic();
+addPicturesToList(imgKey);
